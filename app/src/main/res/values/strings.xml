@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies viewer</string>
+
+    <string name="error_search_with_new_query">Please Search with new query</string>
+    <string name="main_fragment">Movies Viewer</string>
+    <string name="search_hint">Movies Category</string>
+    <string name="comedy">comedy</string>
+    <string name="title_movies_favoris">Favorites Movies</string>
+    <string name="error_msg">an error occurred, please retry later</string>
+
+</resources>

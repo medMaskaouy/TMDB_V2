@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/moviesListFragment">
+
+    <fragment
+        android:id="@+id/moviesListFragment"
+        android:name="com.example.moviesviewer.ui.main.MainFragment"
+        android:label="@string/main_fragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/list_to_favorite"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.maskaouy.moviesviewer.ui.favoris.FavorisFragment"
+        android:label="@string/title_movies_favoris"
+        tools:layout="@layout/fragment_movies_favoris">
+    </fragment>
+</navigation>
