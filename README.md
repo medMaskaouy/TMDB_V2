@@ -13,7 +13,7 @@ This is a simple movies viewer application, it uses :
 	 supports Pagination
 	 delegate design patter implemented for the adapter, viewbinding and also  for the progressBar.
 	
-	And other custom extension l
+	And other custom extensions.
 	
 in the main screen we can search for a spec movie title, we can scroll down to see all the search result, clicking on a particular movie we cal add
 it the to favorite section, in the menu area we can navigate to the favorite page and see all the favorite movies loaded from a local dataBase.
