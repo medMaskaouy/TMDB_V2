@@ -2,12 +2,12 @@
 This is a simple movies viewer application, it uses : 
 
  	 MVVM aritechture
-		Dagger Hilt for dependency Injection
+	 Dagger Hilt for dependency Injection
 	 Room for the local DB
-		Live Data
+	 Live Data
 	 Flow to read from the DB
-		A custom Delegate Adapter instead of the normal recyclerView Adapter that uses composition and can easly used with different viewTypes
-		Viewbinding
+	 A custom Delegate Adapter instead of the normal recyclerView Adapter that uses composition and can easly used with different viewTypes
+	 Viewbinding
 	 Lottie annimation
 	 Chuck to debug the network calls
 	 supports Pagination
